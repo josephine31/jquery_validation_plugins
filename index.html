@@ -11,17 +11,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="shortcut icon" href="favicon.ico" />
 <title>Vital Partners Leading Dating and Introduction Agency in Sydney &amp; Canberra</title>
+<!-- <link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css"> -->
 <link href="css/default.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/stylesheet.css" rel="stylesheet" type="text/css" media="all">
+
 <!--<link href="css/small-resolution.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/medium-resolution.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/high-resolution.css" rel="stylesheet" type="text/css" media="all">-->
 
 <!-- jQuery library (served from Google) -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
 <!-- bxSlider Javascript file -->
-<script src="js/jquery.bxslider.min.js"></script>
-<script src="js/script.js" type="text/javascript"></script>
+<!-- <script src="js/jquery.bxslider.min.js"></script> -->
+<!-- <script src="js/script.js" type="text/javascript"></script> -->
 
 <!-- bxSlider CSS file -->
 <link href="css/jquery.bxslider.css" rel="stylesheet" />
@@ -119,143 +121,182 @@
 
 			<div class="contect_text">So we can successfully match your details with suitable people, we first need to collect some information about you. Read each question carfully and  select or place a tick in the box for each of your characteristics. Please answer as honestly as you can, otherwise you may be disappointed with your matches and they with you.</div>
 
-			<div class="form_container_block">
-				<ul>
-					<li class="fileds">
-						<div class="name_fileds">
-							<label>First Name</label>
-							<input name="firstname" type="text" /> 
-						</div>
-						<div class="name_fileds">
-							<label>Last Name</label>
-							<input name="lastname" type="text" /> 
-						</div>
-					</li>
-					<li class="fileds">
-						<div class="phone_fileds">
-							<label>Phone No</label>
-							<input name="phone" type="text" /> 
-						</div>
-						<div class="phone_fileds">
-							<label>Office No</label>
-							<input name="office" type="text" /> 
-						</div>
-					</li>					
-					<li class="fileds">
-						<div class="email_fileds">
-							<label>Email</label>
-							<input name="email" type="text" /> 
-						</div>
-						<div class="pass_fileds">
-							<label>Password</label>
-							<input name="password" type="text" /> 
-						</div>
-					</li>
-					<li class="fileds">
-						<div class="pass_fileds">
-							<label>Confirm Password</label>
-							<input name="password" type="text" /> 
-						</div>
-							<div class="dob_fileds selectbox">
-								<label>My birthdate is</label>
+			<form id="vital_from" action="">
+				<div class="form_container_block">
+					<ul>
+						<li class="fileds">
+							<div class="name_fileds">
+								<label>First Name</label>
+								<input name="firstname" type="text" /> 
+							</div>
+							<div class="name_fileds">
+								<label>Last Name</label>
+								<input name="lastname" type="text" /> 
+							</div>
+						</li>
+						<li class="fileds">
+							<div class="phone_fileds">
+								<label>Phone No</label>
+								<input name="phone" type="text" /> 
+							</div>
+							<div class="phone_fileds">
+								<label>Office No</label>
+								<input name="office" type="text" /> 
+							</div>
+						</li>					
+						<li class="fileds">
+							<div class="email_fileds">
+								<label>Email</label>
+								<input name="email" type="text" /> 
+							</div>
+							<div class="pass_fileds">
+								<label>Password</label>
+								<input name="password" type="text"/> 
+							</div>
+						</li>
+						<li class="fileds">
+							<div class="pass_fileds">
+								<label>Confirm Password</label>
+								<input name="confirm_password" type="text" /> 
+							</div>
+								<div class="dob_fileds selectbox">
+									<label>My birthdate is</label>
+									<span class="select_error"></span>
+									<ul>
+										<li>
+											<select name="day" class="select day">
+												<option value="Select Day">Select Day</option>
+												<option value="1">01</option>
+												<option value="2">02</option>
+												<option value="3">03</option>
+												<option value="4">04</option>
+												<option value="5">05</option>
+												<option value="6">06</option>
+												<option value="7">07</option>
+												<option value="8">08</option>
+												<option value="9">09</option>
+												<option value="10">10</option>
 
+												<option value="11">11</option>
+												<option value="12">12</option>
+												<option value="13">13</option>
+												<option value="14">14</option>
+												<option value="15">15</option>
+												<option value="16">16</option>
+												<option value="17">17</option>
+												<option value="18">18</option>
+												<option value="19">19</option>
+												<option value="20">20</option>
+
+												<option value="21">21</option>
+												<option value="22">22</option>
+												<option value="23">23</option>
+												<option value="24">24</option>
+												<option value="25">25</option>
+												<option value="26">26</option>
+												<option value="27">27</option>
+												<option value="28">28</option>
+												<option value="29">29</option>
+												<option value="30">30</option>
+												<option value="31">31</option>
+											</select>
+										
+										</li>
+										<li>
+										
+											<select name="month" class="select month">
+												<option value="Select Month">Select Month</option>
+												<option value="jan">Jan</option>
+												<option value="feb">Feb</option>
+												<option value="march">March</option>
+												<option value="april">April</option>
+												<option value="may">May</option>
+												<option value="june">June</option>
+												<option value="july">July</option>
+												<option value="aug">Aug</option>
+												<option value="sep">Sep</option>
+												<option value="oct">Oct</option>
+												<option value="nov">Nov</option>
+												<option value="dec">Dec</option>
+											</select>
+										</li>
+
+										<li>
+											<select name="year" class="select year">
+												<option value="Select Year">Select Year</option>
+												<option value="1990">1990</option>
+											    <option value="1991">1991</option>
+											    <option value="1992">1992</option>
+										     	<option value="1993">1993</option>
+										    	<option value="1994">1994</option>
+										    	<option value="1995">1995</option>
+											    <option value="1996">1996</option>
+											    <option value="1997">1997</option>
+											    <option value="1998">1998</option>
+											    <option value="1999">1999</option>
+										    	<option value="2000">2000</option>
+											    <option value="2001">2001</option>
+										     	<option value="2002">2002</option>
+											    <option value="2003">2003</option>
+											    <option value="2004">2004</option>
+											    <option value="2005">2005</option>
+											    <option value="2006">2006</option>
+											    <option value="2007">2007</option>
+											    <option value="2008">2008</option>
+											    <option value="2009">2009</option>
+											    <option value="2010">2010</option>
+											    <option value="2011">2011</option>
+											    <option value="2012">2012</option>
+											    <option value="2013">2013</option>
+											    <option value="2014">2014</option>
+											    <option value="2015">2015</option>
+											    <option value="2016">2016</option>
+											    <option value="2017">2017</option>
+											    <option value="2018">2018</option>
+											    <option value="2019">2019</option>
+												<option value="2020">2020</option>
+											</select>	
+										</li>
+									</ul>
+								</div>
+						</li>
+						<li class="fileds">
+							<div class="age_fileds">
+								<label>Age</label>
+								<input name="age" type="text" /> 
+							</div>
+							<div class="gender_fileds">
+								<label>Gender</label>
+								<span class="radio_error"></span>
 								<ul>
-									<li>
-										<select name="month" class="select month">
-											<option value="jan">Jan</option>
-											<option value="feb">Feb</option>
-											<option value="march">March</option>
-											<option value="april">April</option>
-											<option value="may">May</option>
-											<option value="june">June</option>
-											<option value="july">July</option>
-											<option value="aug">Aug</option>
-											<option value="sep">Sep</option>
-											<option value="oct">Oct</option>
-											<option value="nov">Nov</option>
-											<option value="dec">Dec</option>
-										</select>
-									</li>
-									<li>
-										<select name="day" class="select day">
-											<option value="1">01</option>
-											<option value="2">02</option>
-											<option value="3">03</option>
-											<option value="4">04</option>
-											<option value="5">05</option>
-											<option value="6">06</option>
-											<option value="7">07</option>
-											<option value="8">08</option>
-											<option value="9">09</option>
-											<option value="10">10</option>
-
-											<option value="11">11</option>
-											<option value="12">12</option>
-											<option value="13">13</option>
-											<option value="14">14</option>
-											<option value="15">15</option>
-											<option value="16">16</option>
-											<option value="17">17</option>
-											<option value="18">18</option>
-											<option value="19">19</option>
-											<option value="20">20</option>
-
-											<option value="21">21</option>
-											<option value="22">22</option>
-											<option value="23">23</option>
-											<option value="24">24</option>
-											<option value="25">25</option>
-											<option value="26">26</option>
-											<option value="27">27</option>
-											<option value="28">28</option>
-											<option value="29">29</option>
-											<option value="30">30</option>
-											<option value="31">31</option>
-										</select>
-									</li>
-
-									<li>
-										<select name="year" class="select year">
-											<option value="volvo">Year</option>
-										</select>
-									</li>
+									<li><input type="radio" class="radio" id="residence1" name="gender[]" /><label class="radio-label" for="residence1">Male</label></li>
+									<li><input type="radio" class="radio" id="residence2" name="gender[]" /><label class="radio-label" for="residence2">Female</label></li>
+								</ul>	
+							</div>
+						</li>
+						<li>
+							<div class="interest_fileds">
+							<label>Interest</label>
+							<span class="checkbox_error"></span>
+								<ul>
+									<li><input type="checkbox" name="interest[]" class="checkbox" id="checkbox_sample18" /> <label class="css-label" for="checkbox_sample18">Biking</label></li>
+									<li><input type="checkbox" name="interest[]" class="checkbox" id="checkbox_sample19" /> <label class="css-label" for="checkbox_sample19">Reading</label></li>
+									<li><input type="checkbox" name="interest[]" class="checkbox" id="checkbox_sample20" /> <label class="css-label" for="checkbox_sample20">Playing</label></li>
 								</ul>
 							</div>
-					</li>
-					<li class="fileds">
-						<div class="age_fileds">
-							<label>Age</label>
-							<input name="age" type="text" /> 
+							<div class="about_you_fileds">
+							<label>About you</label>
+							<textarea name="feedback"></textarea>
+							</div>						
+						</li>
+					</ul>
+					<div class="next_btn_block">
+						<div class="next_btn">
+							<a href="javascript:;" id="submit">Proceed to Step 2 <span><img src="images/small_triangle.png" alt="small_triangle"> </span></a>
 						</div>
-						<div class="gender_fileds">
-							<label>Gender</label>
-							<ul>
-								<li><input type="radio" class="radio" id="residence1" name="radio" /><label class="radio-label" for="residence1">Male</label></li>
-								<li><input type="radio" class="radio" id="residence2" name="radio" /><label class="radio-label" for="residence2">Female</label></li>
-							</ul>	
-						</div>
-					</li>
-					<li>
-						<div class="interest_fileds">
-						<label>Interest</label>
-							<ul>
-								<li><input type="checkbox" class="checkbox" id="checkbox_sample18" /> <label class="css-label" for="checkbox_sample18">Biking</label></li>
-								<li><input type="checkbox" class="checkbox" id="checkbox_sample19" /> <label class="css-label" for="checkbox_sample19">Reading</label></li>
-								<li><input type="checkbox" class="checkbox" id="checkbox_sample20" /> <label class="css-label" for="checkbox_sample20">Playing</label></li>
-							</ul>
-						</div>
-						<div class="about_you_fileds">
-						<label>About you</label>
-						<textarea></textarea>
-						</div>						
-					</li>
-				</ul>
-				<div class="next_btn_block">
-					<div class="next_btn">
-						<a href="partners_preference_form.html">Proceed to Step 2 <span><img src="images/small_triangle.png" alt="small_triangle"> </span></a>
 					</div>
 				</div>
-			</div>
+			</form>
 		</div>
 	</div>		
   </div>
@@ -423,11 +464,11 @@ Live a life without regrets and take action today!</p>
    Sticky Contact Number End-->
 
 </div>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 	$(document).ready(function(){
 	  $('.bxslider').bxSlider();
 	});
-</script>
+</script> -->
 <!--wrapper-starts-->
 
 <script type="text/javascript" src="js/jquery.js"></script>	
@@ -443,5 +484,7 @@ Live a life without regrets and take action today!</p>
 		});
 	});
 </script>
+<script type="text/javascript" src="jquery-validation-1.19.2/dist/jquery.validate.js"></script>
+<script type="text/javascript" src="js/custom_validation.js"></script>
 </body>
 </html>

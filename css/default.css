@@ -100,4 +100,6 @@ tr:first-child th, tr:first-child td{  border-color:#d2d2d2; border-top-style: s
 html, body {width:100%; height:100%;}
 #container {width:100%;height:auto; /* real browsers */height:100%; /* IE6: treaded as min-height*/min-height:100%; /* real browsers */margin:0 auto; /* center, not in IE5 */position:relative; /* needed for footer positioning*/}
 
-
+.error{
+    color: red !important
+}
